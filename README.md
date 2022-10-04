@@ -12,7 +12,8 @@ and [C40 Cities](https://www.c40.org/) – the leading global alliance of cities
 The platform uses the Google Cloud, which enables user-friendly performance when querying these large datasets to provide graphs and visualisations, 
 and ensures the replicability and scalability of the platform to other cities around the world. 
 The platform is capable of displaying near-real-time data from Breathe London's AQMesh sensors and also other monitor networks such as the London Air Quality Network.
-The platform is open-source and so it is freely replicable by other cities around the world that wish to build their own platform.
+The platform is open-source and so it is freely replicable by other cities around the world that wish to build their own platform. 
+The platform is now hosted by EDF [here](https://globalcleanair.org/innovative-air-quality-monitoring/london-uk/).
 
 ## Screenshots
 Some screenshots of the platform, showing measurements from the Google Street View cars and the static pods.
