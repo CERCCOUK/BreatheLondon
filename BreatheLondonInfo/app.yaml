@@ -1,0 +1,8 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /data5.*
+  script: C40_data5.app
+   

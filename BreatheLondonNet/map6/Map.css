@@ -1,0 +1,1151 @@
+/* Was an attempt to provide a palette of colours that could be used
+            rather than putting in the #xxxxxx colour, everything would use a "var(--breathelondonpink);"
+            but unfortunately it doesn't work in Edge (or IE), so was scrapped */
+            :root {
+                --breathelondonpink: #F00379;
+            }
+      
+            #map {
+                height: 100%;
+                width: 100%;
+            }
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 1px;
+                border: 0px solid #F00379; 
+                overflow:hidden; 
+                box-sizing: border-box; 
+font-family: 'Lato',sans-serif !important;                
+            }
+            
+            a {
+                color: #F00379; 
+                font-weight: bold;
+            }
+            
+            .responsive {
+                max-width: 50%;
+                height: auto;
+            }
+            p, h2, h3, h4, td, th, select, .ui-tabs .ui-tabs-nav li a {
+              font-family: 'Lato',sans-serif !important;
+            }
+            
+            p {
+              font-size: 11px;
+            }
+            
+            
+            h3 {
+                font-weight: normal;
+            }
+            
+            th, td, h4 {
+              font-size: 13px;
+              font-weight: 400;
+            }
+            
+
+            /* EXPLANATORY DIALOGS */
+            .pollExplanationHeader {
+              margin-bottom: 3px;
+            }
+            .pollExplanation {
+              margin-top: 6px;
+              margin-bottom: 6px;
+            }
+            .pollExplanation a {
+              color: #007FFF;
+            }
+            
+            /* POD DIALOG - GRAPH, TABLE */            
+
+            #podDialogDiv{
+              display:none;
+              height: 100%;
+              padding-left: 8px;
+              padding-right: 8px;
+              padding-bottom: 0px;
+            }
+            @media (max-width: 700px) {
+              #podDialogDiv{
+                padding-left: 2px;
+                padding-right: 2px;
+              }
+            }
+
+            /* HACK Allow flex layout within jQueryUI modal dialog https://stackoverflow.com/a/33293969/15639 */
+            .allowFlex {
+                z-index:1000000000;
+                top: 0; left: 0;
+                margin: auto;
+                position: fixed;
+                max-width: 100%;
+                max-height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                flex: 1;
+            }
+            #podDialogDiv  {
+                flex: 1;
+            }                    
+            .noTitleBar { /* Hide title bar */
+              display: none;
+            }
+             
+            #podDialogTabs {
+              border: none; 
+              height: 99%;              
+              padding-top: 0px;
+              padding-bottom: 0px;
+            }
+             
+            #podDialogDiv .ui-tabs .ui-tabs-nav li a {
+              font-size: 16px;               
+            }
+            #podDialogDiv .ui-tabs .ui-tabs-nav a {
+              width: 100%;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            #podDialogDiv .ui-tabs .ui-tabs-active {
+              background-color: #007FFF; /* same colour as graph line */ 
+            }
+            
+            #podDialogDiv .ui-tabs .ui-tabs-nav li {
+              display: block; 
+              text-align: center; 
+              float: left; 
+            }
+            @media (min-width: 701px) {
+              #podDialogDiv .ui-tabs .ui-tabs-nav li {
+                width: 160px;               
+              }
+            }
+            @media (max-width: 700px) {
+              #podDialogDiv .ui-tabs .ui-tabs-nav li {
+                width: 75px;               
+              }
+            }
+            
+            #podDialogDiv .ui-widget-header {
+              border: none;
+              background: white;
+            }
+            
+            #graphSensorNameTR {
+              font-size: 18 px;
+              font-weight: bold;
+              margin-top: 0px;
+              margin-right: 20px;
+            }
+            
+            #graphSensorNameTRContainer {
+               position: absolute; 
+               right: 5px; 
+               top: 0px;
+            }
+            @media (max-width: 700px) {
+              #graphSensorNameTR{
+                display:none;
+              }
+            }
+            
+            .explanatoryDialog-ui-dialog {
+              max-height: 90%;
+              margin: auto;
+              max-width: 90%;
+              display: flex;
+              flex-direction: column;
+              align-items: stretch;
+              flex: 1;
+            }
+            #ExplanatoryDialogDiv {
+              display:none;
+              overflow:auto;
+            }            
+                        
+            #graphTabContents {
+              /* background-color: green; (useful for debugging) */
+              display: flex;
+              flex-direction: column;
+              height: 100%;
+              padding-top: 4px;
+              padding-bottom: 0px;
+              padding-left: 16px;
+              padding-right: 16px;
+            }
+            @media (max-width: 700px) {
+              #graphTabContents {
+                padding-left: 6px;
+                padding-right: 6px;
+              }
+            }
+
+            @media (min-height: 701px) {
+              #graphHeader, #graphFooter, #graphControlHeader, #graphControls {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: auto;
+              }
+              .graphDiv {
+                /* background-color: pink; (useful for debugging)  */
+                flex-grow: 1000;
+                flex-shrink: 0;
+                flex-basis: auto;
+              }
+            }
+            @media (max-height: 700px) {
+              #graphHeader, #graphFooter, #graphControlHeader, #graphControls {
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: auto;
+              }
+              .graphDiv {
+                /* background-color: pink; (useful for debugging) */
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: auto;
+              }
+            }
+            /* Setting the graphDiv height to be 152px less than the graphTabContents div */
+            /* 152px is the graphHeader (34px), 2 line graphFooter (36px), graphControlHeader (27px), 1 line  graphControls (45px) and 10px padding*/
+            /* If the window is narrow, the graphFooter and graphControls divs can be taller, and a vertical scrollbar will be added */
+            /* Note: The max-height settings are based on the "Body" height, but the 100% in the Calc is based on the graphTabContents (minus any padding) */
+            @media (max-height: 700px) and (min-height: 451px) {
+              #graphLargeDiv {
+                height: calc(100% - 152px);
+              }
+            }
+            @media (max-height: 450px) {
+              #graphLargeDiv {
+                height: 200px;
+              }
+            }
+            
+            #graphSmallDiv {
+                height: 250px;
+                display: inline-block;
+              }
+            
+            /* the whats this part of the annotations */
+            .graphDiv .annotation-text tspan {
+              text-decoration: underline;
+            }
+            
+            #graphHeader {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              flex-wrap: wrap;              
+            }
+            @media (min-width: 700px) {
+              #graphHeader {
+                margin-left: auto; 
+                margin-right: auto;
+                margin-top: 0;
+                margin-bottom: 0;
+              }
+            }
+            #graphSensorName, #graphPollutantTitle {
+              flex-grow: 0;
+              flex-shrink: 0;
+              flex-basis: auto;           
+            }
+            
+            #graphControls{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+            }            
+            #dateFromContainer {
+              flex-grow: 3;
+              flex-shrink: 1;
+              flex-basis: auto;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-top: 3px;
+            }
+            #dateToContainer {
+              flex-grow: 3;
+              flex-shrink: 1;
+              flex-basis: auto;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-top: 3px;
+            }
+            #graphPollSelectContainer {              
+              flex-grow: 3;
+              flex-shrink: 1;
+              flex-basis: auto;
+              margin-left: 12px;
+              margin-right: 12px;
+              margin-top: 3px;
+              position: relative;
+            }
+            #graphPollSelectLabelAndImage {
+             position: relative;
+            }            
+            #graphPollSelect {
+              min-width: 80px;
+              width: 100%;
+            }
+            .graphPollutantInfo {
+              position:absolute;
+              top:0;
+              bottom:0;
+              margin-left: 0px;
+              cursor: help;
+            }
+            #graphButtonContainer {
+              flex-grow: 0;
+              flex-shrink: 0;
+              flex-basis: auto;
+              margin-left: 12px;
+              margin-top: 12px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+            }
+            .graphControlsBreaker {
+              display: none;
+              margin-top: 0;
+              margin-bottom: 0;
+            }
+            
+            #drawButton {              
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 1px;
+            }
+            #downloadButton {              
+              margin-left: 12px;
+              margin-right: 0px;
+              margin-top: 1px;
+            }
+            #closeButton {              
+              margin-left: 12px;
+              margin-right: 0px;
+              margin-top: 1px;
+            }
+            #dateFrom, #dateTo {
+              min-width: 80px;
+              width: 100%;               
+            }
+            @media (max-width: 700px) {
+              #graphControls{
+                flex-wrap: wrap;
+              } 
+              .graphControlsBreaker {
+                display: block;
+                width: 100%;
+                height: 0%;
+              }
+              #dateFromContainer, #dateToContainer, #graphPollSelectContainer {
+                max-width: 150px;
+              }
+              #drawButton, #downloadButton, #closeButton {              
+                max-width: 120px;
+              }
+            }
+            #graphSensorName, #graphPollutantTitle {
+              font-weight: bold;
+              margin-top: 5px;
+              margin-bottom: 1px;
+            }
+            @media (max-height: 700px) {
+              #graphSensorName, #graphPollutantTitle {
+                font-size: 14px;
+              }
+            }
+            @media (min-height: 701px) {
+              #graphSensorName, #graphPollutantTitle {
+                font-size: 26px;
+              }
+            }            
+            @media (min-width: 700px) {
+              #graphSensorName{
+                display:none;
+              }
+              #graphPollutantTitle {
+                font-size: 24px;
+              }
+            }
+            #graphControlHeaderP {
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 5px;
+              margin-bottom: 1px;
+            }
+            @media (min-height: 701px) {
+              #graphControlHeaderP {
+                font-size: 24px;
+              }
+            }            
+            #graphControls label {
+              font-size: 13px;
+              font-weight: bold;
+              margin-top: 1px;
+              margin-bottom: 1px;
+            }
+            #disclaimerWHO {
+              font-size: 13px;
+              font-style: italic;
+              margin-top: 3px;
+              margin-bottom: 3px;
+            }
+            
+            /* DIALOG 'CURRENT VALUES' TABLE TAB */
+            #tableTabContents {
+              margin: auto;
+              width: 500px;
+              border-spacing: 8px; 
+            }
+            #tableHeader {
+              font-size: 26px;
+              font-weight: bold; 
+              margin-top: 18px;
+              margin-bottom: 18px;
+            }
+            @media (max-width: 620px) {
+              #tableTabContents {
+                width: 90%;
+                padding-left: 0px;
+                padding-right: 0px;
+              }
+              #tableHeader {
+                font-size: 18px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+              }
+            }
+            @media (max-width: 500px) {
+              #tableTabContents {
+                width: 95%;
+                padding-left: 0px;
+                padding-right: 0px;
+              }
+              #tableHeader {
+                font-size: 16px;
+                margin-top: 6px;
+                margin-bottom: 6px;
+              }
+            }
+            
+            #tableCurrentValues {
+              border: 1px solid black;
+              border-collapse: separate;
+              border-spacing: 4px;
+              padding: 15px;
+              background-color: #fff;
+              width:100%
+            }
+            @media (max-width: 620px) {
+              #tableCurrentValues {
+                border-collapse: collapse;
+                border-spacing: 8px; 
+              }
+            }
+            .tableCVHeader {
+              font-size: 16px;
+              font-weight: bold;
+            }
+            #tableFooter {
+              font-size: 14px; 
+            }
+            #tableCloseButton {
+              height: 34px;
+            }
+            
+            /* MAP CONTROLS, LEGENDS, LAQN POPUP */                        
+            #pollutantDiv {
+              background-color: white;
+              border-style: solid;
+              border-width: 1px;
+              border-color: black;
+              margin-left: 5px;
+              margin-top: 5px;
+              padding: 4px;
+              padding-right: 9px;
+              padding-left: 9px;
+            }
+            @media (max-width: 500px) {
+              #pollutantDiv {
+                border-style: none;
+                padding-right: 4px;
+                padding-left: 4px;
+              }
+            }
+            .mapPollutantInfo {
+              position:absolute;
+              top:0;
+              bottom:0;
+              margin:auto;
+              margin-left: 5px;
+              cursor: help;
+            }
+            
+            #overallCaption {
+              font-size: 18px;
+              font-weight: bold;
+              margin-top: 2px;
+              margin-bottom: 5px;
+            }
+            #pollutantCaptionWrapperDiv {
+              position: relative;
+              margin-bottom: 5px;
+              margin-top: 2px;
+            }
+            #pollutantCaption {
+              font-size: 16px;
+              font-weight: bold;
+            }
+            #colourScaleCaption {
+              font-size: 16px;
+              font-weight: bold;
+              margin-bottom: 2px;
+              margin-top: 7px;
+            }
+            @media (max-width: 700px) and (min-width: 501px) {
+              #overallCaption {
+                font-size: 16px;
+              }
+              #pollutantCaption, #colourScaleCaption {
+                font-size: 14px;
+              }
+              .mapPollutantInfo {
+                width: 14px;
+                height: 14px;
+                margin-left: 3px;
+              }
+            }
+            @media (max-width: 500px) {
+              #overallCaption {
+                font-size: 15px;
+              }
+              #pollutantCaption, #colourScaleCaption {
+                font-size: 13px;
+              }
+              .mapPollutantInfo {
+                width: 13px;
+                height: 13px;
+                margin-left: 2px;
+              }
+            }
+            
+            .pollutantLabel {
+              font-size: 16px; 
+              padding-left: 15px;
+            }
+            
+            .AQLabel {
+              font-size: 15px; 
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+
+            @media (max-width: 501px) {
+              #legend {
+                display:none;
+              }
+            }
+            
+            #pollutantDiv td span, #pollutantDiv td div {
+              font-size: 16px;
+            }
+            @media (max-width: 700px) and (min-width: 501px) {
+              #pollutantDiv td span, #pollutantDiv td div {
+                font-size: 13px;
+              }
+            }
+            @media (max-width: 500px) {
+              #pollutantDiv td span, #pollutantDiv td div {
+                font-size: 12px;
+              }
+            }
+            
+            .tooltip {
+                position: relative;
+                display: inline-block;
+            }
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                bottom: 125%;
+                left: 50%;
+                margin-left: 0px;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+
+            .tooltip .tooltiptext::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+                opacity: 1;
+            }
+            
+            /* Custom Popups : https://developers.google.com/maps/documentation/javascript/examples/overlay-popup */
+            /* The popup bubble styling. */
+          .popup-bubble {
+            /* Position the bubble centred-above its parent. */
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, -100%);
+            /* Style the bubble. */
+            background-color: #f00379;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-family: sans-serif;
+            overflow-y: auto;
+            max-height: 60px;
+            box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+          }
+          /* The parent of the bubble. A zero-height div at the top of the tip. */
+          .popup-bubble-anchor {
+            /* Position the div a fixed distance above the tip. */
+            position: absolute;
+            width: 100%;
+            bottom: /* TIP_HEIGHT= */ 8px;
+            left: 0;
+          }
+          /* This element draws the tip. */
+          .popup-bubble-anchor::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* Center the tip horizontally. */
+            transform: translate(-50%, 0);
+            /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+            width: 0;
+            height: 0;
+            /* The tip is 8px high, and 12px wide. */
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: /* TIP_HEIGHT= */ 8px solid #ffffff;
+          }
+          /* JavaScript will position this div at the bottom of the popup tip. */
+          .popup-container {
+            cursor: auto;
+            height: 0;
+            position: absolute;
+            /* The max width of the info window. */
+            width: 200px;
+          }
+
+            #measuredAt {
+              margin-top: 0px;
+              margin-bottom: 1px;
+              color: #444444;
+              font-size: 10px;
+            }
+            @media (max-width: 500px) {
+              #measuredAt {
+                display:none;
+              }
+            }
+            #graphButtonContainer{ 
+              margin-top: 4px;
+              margin-bottom: 0px;
+            }     
+
+            /* The side navigation menu */
+                     
+
+            .sideControls {
+               padding-bottom: 20px;
+               background-color: #fff;
+               padding-left: 16px;
+               padding-right: 8px;
+               font-family: 'Lato',sans-serif !important;
+               z-index:2 !important;
+            }
+            
+            @media (max-width: 700px) {
+              #sitePanel {
+                width: 100%;
+              }
+              #faqPanel {
+                width:100%;
+              }
+              #layerPanel {
+                width: 100%;
+              }
+            }
+            
+            @media (min-width: 701px) {
+              #sitePanel {
+                width: 280px;
+              }
+              #layerPanel {
+                width: 220px;
+              }
+              #faqPanel {
+                width: 305px;
+              }
+            }
+            
+            @media (max-height: 500px) {
+              #sitePanel {
+                height:100%;
+              }
+              #faqPanel {
+                height:100%;
+              }
+              #layerPanel {
+                height:100%;
+              }
+            }
+            
+            @media (min-height: 501px) {
+              #sitePanel {
+                height:auto;
+                top: 0px !important;
+              }
+              #faqPanel {
+                height:100%;
+              }
+              #layerPanel {
+                height:94%;
+                top: 0px !important;
+              }
+            }
+
+
+            .panelInfo {
+               overflow: hidden;
+            }
+
+            .faqAccordion {
+              padding-left: 0px !important; 
+              padding-right: 0px !important; 
+              padding-top: 6px !important; 
+              padding-bottom: 6px !important; 
+              font-weight: normal;
+              border: none;
+            }
+
+            .legendAccordion {
+              padding-left: 0px !important; 
+              padding-right: 0px !important; 
+              padding-top: 12px !important; 
+              padding-bottom: 16px !important; 
+              border-top: 1px solid lightgray;
+              border-bottom: none;
+              border-left: none;
+              border-right: none;
+            }
+
+            .faqAccordion, .legendAccordion {
+              cursor: pointer;
+              width: 100%;
+              
+              text-align: left;
+              outline: none;
+              transition: 0.4s;
+              background-color: #fff;
+              font-family: 'Lato',sans-serif;
+              font-size: 15px;
+              
+              color: #F00379;  
+            }
+
+            .LHSSection{
+                padding-bottom: 12px;
+            }
+
+            .panelTitle, .sectionHeader, .sectionText{
+                font-family: 'Lato',sans-serif;
+                font-weight: 500;
+                
+                text-align: left;
+                border: none;
+                white-space: normal;
+                float: none;
+                outline: 0;
+                width: 100%;
+                display: block;
+                margin: 0px 0;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            .panelTitle{
+                padding-top: 18px;
+                padding-bottom: 0px;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 0px;
+                color: #535252;
+            }
+            
+
+            .sectionHeader {
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 0px;
+                color: #777;
+            }
+
+            .sectionText {
+                font-size: 11px;
+                font-weight: normal;
+                margin-bottom: 0px;
+                color: #676767;
+                line-height: 1.5;
+                width: 280px;
+            }   
+
+            .active, .faqAccordion:hover, .legendAccordion:hover {
+                background-color: #fff;
+            }
+
+            .legendAccordion:after, .faqAccordion:after {
+              content: '\02C3';
+              color: #F00379;  
+              font-weight: bold;
+              float: right;
+              margin-left: 5px;
+            }
+
+            .active:after {
+              content: "\02C5  ";
+              color: #F00379;  
+            }
+
+            .panel {
+              background-color: white; 
+              max-height: 0;
+              overflow: hidden;
+              color: #676767;
+              transition: max-height 0.2s ease-out;
+            }    
+
+            .tabLeft {
+                width: 30px;
+                height: 30px;  
+                background: red;
+                position: absolute;
+                top: 10px;
+                right: -30px;
+                background-color:#F00379;  
+            }
+
+            .overviewTable {
+              font-family: 'Lato',sans-serif;
+              border-collapse: collapse;
+              table-layout: fixed;
+              color: #676767;
+            }
+
+            .overviewTable td, 
+            .overviewTable th {
+              border-collapse: collapse;
+              text-align: left;
+              padding: 3px;
+            }
+
+            .overviewTable th {
+              background-color: white;
+              color: #676767;
+            }
+			
+			
+            #SiteDiv {
+                display: none;
+                width: 240px;
+                color: #676767;
+                
+            }
+            
+            #graphRHS {
+               border-top: 1px solid #bbb;
+            }
+			
+			#categories {
+				width: 225px;
+				margin-left: 10px;
+				border-width: 1px;
+				border-color: #dadada;
+				color: #f00379; 
+				vertical-align: top;
+				outline: 0px transparent !important;
+			}
+			
+			
+			#sourcetb {
+				background-color: white;
+				color: grey;
+				width: 259px; 
+				border=1px solid grey;
+			}
+			
+			#sourcevalue {
+				background-color: white;
+				color: grey; 
+				text-align: left;  
+				font-weight: bold;
+			}
+
+            .dot {
+              height: 11px;
+              width: 11px;
+              background-color: #fff;
+              border: 1px solid #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              float: right;
+            }
+
+            .reddot2 {
+              height: 11px;
+              width: 11px;
+              border: 1px solid #bbb;
+              background-color: #f00;
+              border-radius: 50%;
+              display: inline-block;
+            }
+
+            .greydot2 {
+              height: 11px;
+              width: 11px;
+              background-color: #bbb;
+              border-radius: 50%; 
+              display: inline-block;
+            }
+                        
+            .dot2 {
+              height: 11px;
+              width: 11px;
+              background-color: #fff;
+              border: 1px solid #bbb;
+              border-radius: 50%;
+              display: inline-block;
+            }
+
+            .yellowdot2 {
+              height: 11px;
+              width: 11px;
+              background-color: rgb(254, 254, 49);
+              border: 1px solid #bbb;
+              border-radius: 50%;
+              display: inline-block;
+            }
+
+            .orangedot2 {
+              height: 11px;
+              width: 11px;
+              border: 1px solid #bbb;
+              background-color: rgb(240, 164, 0);
+              border-radius: 50%;
+              display: inline-block;
+            }
+
+            .styled-select {
+               background: url(./icons/selectarrow3.png) no-repeat 96% 0;
+               height: 29px;
+               overflow: hidden;
+               width: 160px;
+            }
+
+            .styled-select select {
+               background: transparent;
+               border: none;
+               font-size: 14px;
+               height: 29px;
+               padding: 3px; /* If you add too much padding here, the options won't show in IE */
+               width: 262px;
+            }
+
+            .styled-select select:focus {
+                outline: none;
+            }
+
+            .statdropdown   { background-color: #fff; }
+            .statdropdown select   { color: #F00379;    }
+            .statdropdown select:disabled { color: #aaaaaa;  background: white;}
+            
+
+			
+            .regular-checkbox {
+                display: none;
+            }
+            
+            .regular-checkbox + label {
+                background-color: #ffffff;
+                border: 1px solid #F00379;  
+                margin-top: 3px;
+                padding: 6px;
+                border-radius: 3px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .regular-checkbox:checked + label {
+                background-color: #F00379;  
+                border: 1px solid #F00379;  
+                color: #99a1a7;
+            }
+
+            .regular-checkbox:checked + label:after {
+                content: "\2713";
+                font-size: 9px;
+                position: absolute;
+                top: 0px;
+                left: 3px;
+                color: #ffffff;
+            }
+
+            .regular-checkbox:focus + label{
+                outline: none !important;
+                border-color: #F00379;  
+
+            }
+
+            .regular-radio {
+                display: none;
+            }
+            
+            .regular-radio + label {
+                -webkit-appearance: none;
+                background-color: #ffffff;
+                border: 1px solid #F00379;  
+                padding: 5px;
+                border-radius: 50px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .regular-radio:checked + label:after {
+                content: ' ';
+                width: 8px;
+                height: 8px;
+                border-radius: 50px;
+                position: absolute;
+                top: 1px;
+                background-color: #F00379;
+                text-shadow: 0px;
+                left: 1px;
+                font-size: 32px;
+            }
+
+            .regular-radio:checked + label {
+                background-color: #ffffff;
+                border: 1px solid #F00379; 
+            }
+
+            .regular-radio:disabled + label{
+              
+                background-color: #ffffff;
+                border: 1px solid lightgray;
+                padding: 5px;
+                border-radius: 50px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .regular-radio:focus + label {
+                outline: none !important;
+                border-color: #F00379;  
+            } 
+
+            .header-radio {
+                display: none;
+            }
+            
+            .header-radio + label {
+                -webkit-appearance: none;
+                background-color: #ffffff;
+                border: 2px solid #F00379;  
+                padding: 9px;
+                border-radius: 60px;
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+            }
+
+            .header-radio:checked + label:after {
+                content: ' ';
+                width: 12px;
+                height: 12px;
+                border-radius: 60px;
+                position: absolute;
+                top: 1px;
+                background-color: #F00379;
+                text-shadow: 0px;
+                left: 1px;
+                font-size: 48px;
+            }
+
+            .header-radio:checked + label {
+                background-color: #ffffff;
+                border: 2px solid #F00379; 
+            }
+
+            .header-radio:disabled + label{
+              
+                background-color: #ffffff;
+                border: 1px solid lightgray;
+                padding: 9px;
+                border-radius: 90px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .header-radio:focus + label {
+                outline: none !important;
+                border-color: #F00379;  
+            } 
+            
+            
+            .simplebar-scrollbar.simplebar-visible:before { background: #F00379;    }
+            .simplebar-scrollbar.simplebar-visible { background: #F0037900; }
+
+            input:focus {
+                outline: none;
+            }
+
+            .searchOptionMonitor {
+                background:white;
+                color: #F00379;  
+                margin: 0px 0px 2px 5px;
+                font-size: 11pt;
+                border-top-style:dotted;
+                border-top-width:1px;
+                text-decoration-line: none;
+                    
+            }
+            .searchOptionMonitor:hover{ 
+                text-decoration-line: underline;
+            }
+            .searchOptionBasic {
+                background:white;
+                margin: 0px 0px 2px 5px;
+                font-size: 11pt;
+                border-top-style:dotted;
+                border-top-width:1px;
+                text-decoration-line: none;
+            }
+            .searchOptionBasic:hover{ 
+                text-decoration-line: underline;
+            }

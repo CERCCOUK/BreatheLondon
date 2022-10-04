@@ -1,0 +1,59 @@
+indexes:
+
+- kind: Station_Scaling
+  ancestor: yes
+  properties:
+  - name: Version
+  - name: Pollutant
+  - name: TBTimestamp
+    direction: desc
+
+- kind: StationScaling7
+  ancestor: yes
+  properties:
+  - name: Pollutant
+  - name: TBTimestamp
+    direction: desc
+
+- kind: StationScaling8
+  ancestor: yes
+  properties:
+  - name: Pollutant
+  - name: TBTimestamp
+    direction: desc
+
+- kind: StationScaling9
+  ancestor: yes
+  properties:
+  - name: Pollutant
+  - name: TBTimestamp
+    direction: desc
+
+- kind: StationHourValue4
+  ancestor: yes
+  properties:
+  - name: EndTime
+  - name: NO2_1hour 
+
+- kind: StationHourValue4
+  ancestor: yes
+  properties:
+  - name: EndTime
+  - name: PM2_5_1hour 
+
+- kind: StationHourValue3
+  ancestor: yes
+  properties:
+  - name: EndTime
+  - name: NO2_1hour 
+
+- kind: StationHourValue3
+  ancestor: yes
+  properties:
+  - name: EndTime
+  - name: PM2_5_1hour 
+
+- kind: StationHourValue3
+  ancestor: yes
+  properties:
+  - name: EndTime

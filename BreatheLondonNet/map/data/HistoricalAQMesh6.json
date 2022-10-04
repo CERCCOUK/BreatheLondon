@@ -1,0 +1,3648 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.187703,
+          51.438489
+        ]
+      },
+      "properties": {
+        "Name": "Steerforth Street",
+        "MapID": "",
+        "Borough": "Wandsworth",
+        "airTEXTZone": "Wandsworth",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "5245",
+        "Latitude": 51.438489,
+        "Longitude": -0.187703,
+        "LocationStartDate": "2018-10-09T19:00:00",
+        "LocationEndDate": "2018-11-26T01:00:00",
+        "LocationID": "52450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 44.32,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 6.82
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 16.86
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 7.32
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 6.17
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 7.15
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 3.36,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 1.03
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.37
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.96
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 6.61,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.38
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.81
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 2.43
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 22.67,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 14.75
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 7.91
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 23.04,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 1.04
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 22
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2018-11-26T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 1126,
+          "AverageSoFar": 33.1
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.088654,
+          51.506131
+        ]
+      },
+      "properties": {
+        "Name": "Borough High Street",
+        "MapID": "",
+        "Borough": "Southwark",
+        "airTEXTZone": "Southwark",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "10245",
+        "Latitude": 51.506131,
+        "Longitude": -0.088654,
+        "LocationStartDate": "2019-04-09T15:00:00",
+        "LocationEndDate": "2020-05-28T02:00:00",
+        "LocationID": "102451",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 67.17,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 12.15
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 11.01
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 9.03
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 21.42
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 13.56
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 2.53,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 1.39
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.6
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.54
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 4.32,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 2.14
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.54
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.64
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 16.79,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 4.92
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 11.88
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 9.2,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.32
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 8.88
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-05-28T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 9723,
+          "AverageSoFar": 44.43
+        },
+        "PM2_5": {
+          "CodeName": "PM2_5",
+          "Name": "PM2.5",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-05-28T02:00:00",
+          "NumExceedencesSoFar": 26,
+          "NumValidHoursSoFar": 9716,
+          "AverageSoFar": 11.38
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.141896,
+          51.51092
+        ]
+      },
+      "properties": {
+        "Name": "Clifford Street",
+        "MapID": "",
+        "Borough": "Westminster",
+        "airTEXTZone": "Westminster",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "17245",
+        "Latitude": 51.51092,
+        "Longitude": -0.141896,
+        "LocationStartDate": "2019-02-28T00:00:00",
+        "LocationEndDate": "2019-04-10T02:00:00",
+        "LocationID": "172450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 43.61,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 10.25
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 11.78
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.1
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 8.39
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 7.1
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 2.08,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.6
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.26
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.22
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 6.91,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.53
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 1.1
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 2.29
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 29.78,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 9.11
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 20.67
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 17.62,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.61
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 17.01
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-04-10T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 827,
+          "AverageSoFar": 40.14
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14503,
+          51.486223
+        ]
+      },
+      "properties": {
+        "Name": "Churchill Gardens Road",
+        "MapID": "",
+        "Borough": "Westminster",
+        "airTEXTZone": "Westminster",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "33245",
+        "Latitude": 51.486223,
+        "Longitude": -0.14503,
+        "LocationStartDate": "2019-04-05T01:00:00",
+        "LocationEndDate": "2019-07-24T02:00:00",
+        "LocationID": "332450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 44.47,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.29
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 13.3
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 7.21
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 6.94
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 7.73
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 3.02,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 1.07
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.45
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.51
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 7.94,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 4.75
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.72
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 2.47
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 24.37,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 11.53
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 12.83
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 20.19,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.74
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 19.45
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-07-24T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 2588,
+          "AverageSoFar": 31.97
+        },
+        "PM2_5": {
+          "CodeName": "PM2_5",
+          "Name": "PM2.5",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-07-24T02:00:00",
+          "NumExceedencesSoFar": 39,
+          "NumValidHoursSoFar": 6391,
+          "AverageSoFar": 14.62
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116092,
+          51.555387
+        ]
+      },
+      "properties": {
+        "Name": "Holloway Road",
+        "MapID": "",
+        "Borough": "Islington",
+        "airTEXTZone": "Islington",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "33245",
+        "Latitude": 51.555387,
+        "Longitude": -0.116092,
+        "LocationStartDate": "2019-09-03T13:00:00",
+        "LocationEndDate": "2019-09-17T02:00:00",
+        "LocationID": "332451",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 73.41,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 10.73
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 19.81
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 11.9
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 14.69
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 16.28
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.46,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.18
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.11
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.17
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 3.96,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 2.66
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.33
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 0.97
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 11.54,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 7.31
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.23
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 9.63,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.34
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 9.29
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-09-17T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 321,
+          "AverageSoFar": 33.09
+        },
+        "PM2_5": {
+          "CodeName": "PM2_5",
+          "Name": "PM2.5",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-09-17T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 325,
+          "AverageSoFar": 10.17
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.088226,
+          51.496482
+        ]
+      },
+      "properties": {
+        "Name": "Black Horse Court",
+        "MapID": "",
+        "Borough": "Southwark",
+        "airTEXTZone": "Southwark",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "36245",
+        "Latitude": 51.496482,
+        "Longitude": -0.088226,
+        "LocationStartDate": "2018-12-13T15:00:00",
+        "LocationEndDate": "2020-06-05T02:00:00",
+        "LocationID": "362450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Measurements": [
+            {
+              "Value": -999,
+              "Hour": 12,
+              "DateTime": "2020-08-05T12:00:00"
+            },
+            {
+              "Value": -999,
+              "Hour": 11,
+              "DateTime": "2020-08-05T11:00:00"
+            }
+          ],
+          "NumExceedencesSoFar": -999,
+          "NumValidHoursSoFar": -999,
+          "AverageSoFar": -999,
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 59.83,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.4
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 14.74
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 13.21
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 9.21
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 13.26
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.93,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.72
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.46
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.75
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 5.64,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.22
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.65
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.76
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 20.31,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 8.5
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 11.81
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 12.3,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.46
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 11.85
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-06-05T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 10944,
+          "AverageSoFar": 33.45
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0188,
+          51.4831
+        ]
+      },
+      "properties": {
+        "Name": "Glaisher Street",
+        "MapID": "",
+        "Borough": "Greenwich",
+        "airTEXTZone": "Greenwich",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "39245",
+        "Latitude": 51.4831,
+        "Longitude": -0.0188,
+        "LocationStartDate": "2018-10-24T11:00:00",
+        "LocationEndDate": "2019-03-08T01:00:00",
+        "LocationID": "392450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 36.65,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 5.93
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 12.8
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 5.97
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 4.97
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 6.98
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 10.76,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 1.34
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 8.41
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.01
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 11.72,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 7.66
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.64
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 3.41
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 20.04,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 11.89
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 8.15
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 20.84,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.87
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 19.97
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-03-08T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 3223,
+          "AverageSoFar": 34.28
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.222013,
+          51.426126
+        ]
+      },
+      "properties": {
+        "Name": "Parkside",
+        "MapID": "",
+        "Borough": "Merton",
+        "airTEXTZone": "Merton",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "42245",
+        "Latitude": 51.426126,
+        "Longitude": -0.222013,
+        "LocationStartDate": "2018-10-24T13:00:00",
+        "LocationEndDate": "2019-02-06T01:00:00",
+        "LocationID": "422450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 71.5,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.56
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 27.99
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 11.2
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 12.17
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 10.58
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.53,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.51
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.19
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.83
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 3.4,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.73
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.29
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.38
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 10.33,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 6.46
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 3.87
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 13.25,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.64
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 12.61
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-02-06T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 2494,
+          "AverageSoFar": 32.39
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.230427,
+          51.476168
+        ]
+      },
+      "properties": {
+        "Name": "Wetland Centre",
+        "MapID": "",
+        "Borough": "Richmond",
+        "airTEXTZone": "Richmond upon Thames",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "55245",
+        "Latitude": 51.476168,
+        "Longitude": -0.230427,
+        "LocationStartDate": "2018-10-17T14:00:00",
+        "LocationEndDate": "2018-12-17T01:00:00",
+        "LocationID": "552450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 38.23,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 6.5
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 14.03
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 5.87
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 5.76
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 6.06
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 11.31,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 9.53
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.27
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.51
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 6.03,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.11
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.51
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 2.42
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 21.65,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 12.99
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 8.66
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 22.78,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 1.03
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 21.75
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2018-12-17T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 1445,
+          "AverageSoFar": 28.49
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.100759,
+          51.379382
+        ]
+      },
+      "properties": {
+        "Name": "Broomhill Road",
+        "MapID": "",
+        "Borough": "Bromley",
+        "airTEXTZone": "Bromley",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "65245",
+        "Latitude": 51.379382,
+        "Longitude": 0.100759,
+        "LocationStartDate": "2018-12-16T17:00:00",
+        "LocationEndDate": "2019-01-08T01:00:00",
+        "LocationID": "652450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 42.71,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 5.93
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 16.55
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.78
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 7.24
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 6.21
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 2.77,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.6
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 1.23
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.94
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 7.8,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.33
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.71
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 3.76
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 16.22,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 11.64
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.58
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 30.51,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 1.29
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 29.22
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-01-08T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 524,
+          "AverageSoFar": 13.83
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.038547,
+          51.474143
+        ]
+      },
+      "properties": {
+        "Name": "St James",
+        "MapID": "",
+        "Borough": "Lewisham",
+        "airTEXTZone": "Lewisham",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "70245",
+        "Latitude": 51.474143,
+        "Longitude": -0.038547,
+        "LocationStartDate": "2018-12-22T12:45:00",
+        "LocationEndDate": "2020-03-02T01:00:00",
+        "LocationID": "702450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 45.69,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 6.97
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 14.75
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.79
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 8.05
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 9.13
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 3.86,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.96
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 1.35
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.55
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 10.1,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 6.18
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.62
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 3.31
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 20.41,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 12.88
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 7.53
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 19.94,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.81
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 19.13
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-03-02T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 20171,
+          "AverageSoFar": 29.88
+        },
+        "PM2_5": {
+          "CodeName": "PM2_5",
+          "Name": "PM2.5",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-03-02T01:00:00",
+          "NumExceedencesSoFar": 25,
+          "NumValidHoursSoFar": 22784,
+          "AverageSoFar": 10.84
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.175939,
+          51.551247
+        ]
+      },
+      "properties": {
+        "Name": "Fitzjohn Avenue",
+        "MapID": "",
+        "Borough": "Camden",
+        "airTEXTZone": "Camden",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "72245",
+        "Latitude": 51.551247,
+        "Longitude": -0.175939,
+        "LocationStartDate": "2018-11-02T00:00:00",
+        "LocationEndDate": "2019-02-13T01:00:00",
+        "LocationID": "722450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 62.9,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.75
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 25.35
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 9.44
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 7.51
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 10.84
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 5.03,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.24
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.12
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 4.67
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 3.44,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.89
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.37
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.19
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 16.04,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 9.19
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 6.85
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 12.59,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.42
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 12.17
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-02-13T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 1079,
+          "AverageSoFar": 21.61
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.341502,
+          51.58092
+        ]
+      },
+      "properties": {
+        "Name": "Greenhill Way",
+        "MapID": "",
+        "Borough": "Harrow",
+        "airTEXTZone": "Harrow",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "74245",
+        "Latitude": 51.58092,
+        "Longitude": -0.341502,
+        "LocationStartDate": "2018-10-23T11:00:00",
+        "LocationEndDate": "2019-08-12T02:00:00",
+        "LocationID": "742450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 70.47,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 8.6
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 28.41
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 7.1
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 15.88
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 10.49
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.71,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.21
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.08
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.42
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 2.81,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.59
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.26
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 0.95
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 10.88,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 6.36
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.52
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 14.12,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.37
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 13.75
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-08-12T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 6935,
+          "AverageSoFar": 46.63
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116092,
+          51.555387
+        ]
+      },
+      "properties": {
+        "Name": "Holloway Road",
+        "MapID": "",
+        "Borough": "Islington",
+        "airTEXTZone": "Islington",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "74245",
+        "Latitude": 51.555387,
+        "Longitude": -0.116092,
+        "LocationStartDate": "2019-09-03T13:00:00",
+        "LocationEndDate": "2019-09-17T02:00:00",
+        "LocationID": "742451",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 73.41,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 10.73
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 19.81
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 11.9
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 14.69
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 16.28
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.46,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.18
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.11
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.17
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 3.96,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 2.66
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.33
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 0.97
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 11.54,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 7.31
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.23
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 9.63,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.34
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 9.29
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-09-17T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 324,
+          "AverageSoFar": 39.68
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.057899,
+          51.54337
+        ]
+      },
+      "properties": {
+        "Name": "Richmond Road",
+        "MapID": "",
+        "Borough": "Hackney",
+        "airTEXTZone": "Hackney",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "83245",
+        "Latitude": 51.54337,
+        "Longitude": -0.057899,
+        "LocationStartDate": "2018-12-14T13:15:00",
+        "LocationEndDate": "2019-04-18T02:00:00",
+        "LocationID": "832450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 62.99,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.83
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 23.53
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 12.74
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 9.78
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 7.11
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.83,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.36
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.24
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 1.23
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 6.72,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 4.53
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.56
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.63
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 14.73,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 9.83
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.9
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 13.74,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.45
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 13.29
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-04-18T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 1643,
+          "AverageSoFar": 38.71
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.088786,
+          51.513206
+        ]
+      },
+      "properties": {
+        "Name": "Bank Junction",
+        "MapID": "",
+        "Borough": "City of London",
+        "airTEXTZone": "City of London",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "LOW",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "85245",
+        "Latitude": 51.513206,
+        "Longitude": -0.088786,
+        "LocationStartDate": "2019-04-24T14:00:00",
+        "LocationEndDate": "2020-01-28T01:00:00",
+        "LocationID": "852451",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 76.25,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 14
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 10.38
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 5.62
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 33.22
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 13.03
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.21,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.6
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.27
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.35
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 3.38,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.43
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.41
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.55
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 12.96,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 3.11
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 9.85
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 6.2,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.21
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 5.99
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-01-28T01:00:00",
+          "NumExceedencesSoFar": 12,
+          "NumValidHoursSoFar": 6419,
+          "AverageSoFar": 66.32
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.074271,
+          51.518123
+        ]
+      },
+      "properties": {
+        "Name": "Commercial Street",
+        "MapID": "",
+        "Borough": "Tower Hamlets",
+        "airTEXTZone": "Tower Hamlets",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "86245",
+        "Latitude": 51.518123,
+        "Longitude": -0.074271,
+        "LocationStartDate": "2019-03-01T11:15:00",
+        "LocationEndDate": "2020-06-05T02:00:00",
+        "LocationID": "862450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Measurements": [
+            {
+              "Value": -999,
+              "Hour": 12,
+              "DateTime": "2020-08-05T12:00:00"
+            },
+            {
+              "Value": -999,
+              "Hour": 11,
+              "DateTime": "2020-08-05T11:00:00"
+            }
+          ],
+          "NumExceedencesSoFar": -999,
+          "NumValidHoursSoFar": -999,
+          "AverageSoFar": -999,
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 83.35,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 11.77
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 20.78
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 16.69
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 4.43
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 29.68
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 0.71,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.3
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.16
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.25
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 2.42,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.34
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.35
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 0.73
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 8.85,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 2.97
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 5.88
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 4.67,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.16
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 4.51
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-06-05T02:00:00",
+          "NumExceedencesSoFar": 6,
+          "NumValidHoursSoFar": 11035,
+          "AverageSoFar": 48.07
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.036516,
+          51.42796
+        ]
+      },
+      "properties": {
+        "Name": "Haseltine Road",
+        "MapID": "",
+        "Borough": "Lewisham",
+        "airTEXTZone": "Lewisham",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "87245",
+        "Latitude": 51.42796,
+        "Longitude": -0.036516,
+        "LocationStartDate": "2019-03-11T15:30:00",
+        "LocationEndDate": "2019-05-20T02:00:00",
+        "LocationID": "872450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 66.86,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 11.14
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 27.84
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 10.21
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 4.18
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 13.48
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.67,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.5
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.46
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.71
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 4.85,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 2.7
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.45
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.7
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 11.72,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 8.28
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 3.44
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 14.91,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.64
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 14.27
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-05-20T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 1662,
+          "AverageSoFar": 44.11
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.132866,
+          51.5625154
+        ]
+      },
+      "properties": {
+        "Name": "St John's Upper Holloway CE Primary School",
+        "MapID": "",
+        "Borough": "Islington",
+        "airTEXTZone": "Islington",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "87245",
+        "Latitude": 51.5625154,
+        "Longitude": -0.132866,
+        "LocationStartDate": "2019-07-17T13:00:00",
+        "LocationEndDate": "2019-12-11T19:54:00",
+        "LocationID": "872452",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 39.63,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 6.58
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 14.03
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.23
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 5.86
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 6.93
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 6.61,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.38
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.21
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 6.03
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 7.3,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 4.54
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.71
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 2.05
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 24.95,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 15.76
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 9.19
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 21.52,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.74
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 20.77
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-12-11T19:54:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 2482,
+          "AverageSoFar": 42.55
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.060587,
+          51.515901
+        ]
+      },
+      "properties": {
+        "Name": "Woolwich Manor Way",
+        "MapID": "",
+        "Borough": "Barking & Dagenham",
+        "airTEXTZone": "Barking and Dagenham",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "89245",
+        "Latitude": 51.515901,
+        "Longitude": 0.060587,
+        "LocationStartDate": "2018-10-25T13:00:00",
+        "LocationEndDate": "2019-01-03T01:00:00",
+        "LocationID": "892450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 58.01,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 9.24
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 18.24
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.78
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 15.31
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 8.43
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 4.79,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 3.33
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.79
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.67
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 9.47,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 4.86
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.52
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 4.09
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 11.66,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 6.78
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.88
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 16.07,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.68
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 15.39
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-01-03T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 671,
+          "AverageSoFar": 30.42
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.075379,
+          51.39905
+        ]
+      },
+      "properties": {
+        "Name": "High Road",
+        "MapID": "",
+        "Borough": "Croydon",
+        "airTEXTZone": "Croydon",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Kerbside",
+        "UniqueID": "93245",
+        "Latitude": 51.39905,
+        "Longitude": -0.075379,
+        "LocationStartDate": "2018-12-16T17:00:00",
+        "LocationEndDate": "2019-01-08T01:00:00",
+        "LocationID": "932450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 79.34,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 8.29
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 27.59
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 10.34
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 21.83
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 11.29
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 1.06,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.27
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 0.24
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.55
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 2.78,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 1.57
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.23
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 0.98
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 7.56,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 5.6
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 1.96
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 9.26,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.49
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 8.78
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-01-08T01:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 533,
+          "AverageSoFar": 47.51
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.100759,
+          51.379382
+        ]
+      },
+      "properties": {
+        "Name": "Broomhill Road",
+        "MapID": "",
+        "Borough": "Bromley",
+        "airTEXTZone": "Bromley",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Urban Background",
+        "UniqueID": "93245",
+        "Latitude": 51.379382,
+        "Longitude": 0.100759,
+        "LocationStartDate": "2019-01-08T12:00:00",
+        "LocationEndDate": "2019-05-15T02:00:00",
+        "LocationID": "932451",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 42.71,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 5.93
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 16.55
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 6.78
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 7.24
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 6.21
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 2.77,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.6
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 1.23
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.94
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 7.8,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 3.33
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.71
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 3.76
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 16.22,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 11.64
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 4.58
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 30.51,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 1.29
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 29.22
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-05-15T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 2350,
+          "AverageSoFar": 19.11
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.008609,
+          51.481858
+        ]
+      },
+      "properties": {
+        "Name": "King William Walk",
+        "MapID": "",
+        "Borough": "Greenwich",
+        "airTEXTZone": "Greenwich",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "98245",
+        "Latitude": 51.481858,
+        "Longitude": -0.008609,
+        "LocationStartDate": "2018-09-20T11:00:00",
+        "LocationEndDate": "2019-01-08T01:00:00",
+        "LocationID": "982450",
+        "NOX": {
+          "CodeName": "NOX",
+          "Name": "NOX",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "Sources": {
+            "StartDate": "2019-04-01T00:00:00",
+            "EndDate": "2019-12-12T00:00:00",
+            "Categories": [
+              {
+                "CodeName": "RoadTransport",
+                "Percentage": 74.1,
+                "SubCategories": [
+                  {
+                    "CodeName": "TaxisOtherCarsMotorcycles",
+                    "Percentage": 8.75
+                  },
+                  {
+                    "CodeName": "DieselCars",
+                    "Percentage": 21.29
+                  },
+                  {
+                    "CodeName": "LGVs",
+                    "Percentage": 13.4
+                  },
+                  {
+                    "CodeName": "Buses",
+                    "Percentage": 17.34
+                  },
+                  {
+                    "CodeName": "HGVs",
+                    "Percentage": 13.31
+                  }
+                ]
+              },
+              {
+                "CodeName": "OtherTransport",
+                "Percentage": 3.32,
+                "SubCategories": [
+                  {
+                    "CodeName": "Aviation",
+                    "Percentage": 0.62
+                  },
+                  {
+                    "CodeName": "CommercialShipping",
+                    "Percentage": 2.25
+                  },
+                  {
+                    "CodeName": "Rail",
+                    "Percentage": 0.44
+                  }
+                ]
+              },
+              {
+                "CodeName": "ConstructionAndIndustry",
+                "Percentage": 4.34,
+                "SubCategories": [
+                  {
+                    "CodeName": "Construction",
+                    "Percentage": 2.67
+                  },
+                  {
+                    "CodeName": "NRMMIndustrial",
+                    "Percentage": 0.22
+                  },
+                  {
+                    "CodeName": "IndustrialProcesses",
+                    "Percentage": 1.45
+                  }
+                ]
+              },
+              {
+                "CodeName": "Buildings",
+                "Percentage": 8.67,
+                "SubCategories": [
+                  {
+                    "CodeName": "Domestic",
+                    "Percentage": 5.43
+                  },
+                  {
+                    "CodeName": "Commercial",
+                    "Percentage": 3.24
+                  }
+                ]
+              },
+              {
+                "CodeName": "Other",
+                "Percentage": 9.58,
+                "SubCategories": [
+                  {
+                    "CodeName": "Other",
+                    "Percentage": 0.44
+                  },
+                  {
+                    "CodeName": "NonLondon",
+                    "Percentage": 9.14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2019-01-08T01:00:00",
+          "NumExceedencesSoFar": 12,
+          "NumValidHoursSoFar": 2622,
+          "AverageSoFar": 74.19
+        },
+        "Network": "C40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.075493,
+          51.6130738
+        ]
+      },
+      "properties": {
+        "Name": "North Middlesex University Hospital",
+        "MapID": "",
+        "Borough": "Enfield",
+        "airTEXTZone": "Enfield",
+        "airTEXTForecasts": [
+          {
+            "Date": "2020-07-30",
+            "AlertLevel": "LOW",
+            "Version": 515
+          },
+          {
+            "Date": "2020-07-31",
+            "AlertLevel": "MODERATE",
+            "Version": 4
+          },
+          {
+            "Date": "2020-08-01",
+            "AlertLevel": "LOW",
+            "Version": 2
+          }
+        ],
+        "SiteType": "Roadside",
+        "UniqueID": "128245",
+        "Latitude": 51.6130738,
+        "Longitude": -0.075493,
+        "LocationStartDate": "2020-03-31T14:29:00",
+        "LocationEndDate": "2020-05-04T02:00:00",
+        "LocationID": "1282450",
+        "NO2": {
+          "CodeName": "NO2",
+          "Name": "NO2",
+          "Units": "ug/m3",
+          "AveragingTime": "1 hour",
+          "LastUpdatedDate": "2020-05-04T02:00:00",
+          "NumExceedencesSoFar": 0,
+          "NumValidHoursSoFar": 690,
+          "AverageSoFar": 18.81
+        },
+        "Network": "C40"
+      }
+    }
+  ],
+  "Hour": 0,
+  "MeasuredDate": "0001-01-01T00:00:00",
+  "UpdatedAtDate": "0001-01-01T00:00:00"
+}
