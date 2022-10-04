@@ -14,7 +14,8 @@ and ensures the replicability and scalability of the platform to other cities ar
 The platform is capable of displaying near-real-time data from Breathe London's AQMesh sensors and also other monitor networks such as the London Air Quality Network.
 The platform is open-source and so it is freely replicable by other cities around the world that wish to build their own platform.
 
-![Screenshot of the platform](Images/CERC20191025_BREATHE_London.png)
+![Screenshot of the platform showing Google Car data](Images/CERC_Breathe_London_OnRoad.png)
+![Screenshot of the platform showing a static pod](Images/CERC_Breathe_London_StaticPod.png)
 
 ## Projects
 
