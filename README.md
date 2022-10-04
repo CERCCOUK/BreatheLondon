@@ -24,7 +24,7 @@ Some screenshots of the platform, showing measurements from the Google Street Vi
 There are two projects in this repository: *BreatheLondonNet* and *BreatheLondonInfo*.
 
 ### BreatheLondonNet
-This was hosted under the breathelondon.net domain. It provided HTML, CSS, Javascript for the map page. The maps use Google Maps and the graphs used Plotly. The map page was included in the EDF project website at breathelondon.org through an IFrame.
+This was hosted under the breathelondon.net domain. It provided HTML, CSS, Javascript for the map page. The maps use Google Maps and the graphs used Plotly.js. The map page was included in the EDF project website at breathelondon.org through an IFrame.
 
 ### BreatheLondonInfo
 This was hosted under the breathelondon.info domain. It is a Google AppEngine project to read the AQmesh sensor data from Google Cloud Platform Datastore. 
@@ -33,4 +33,4 @@ This was hosted under the breathelondon.info domain. It is a Google AppEngine pr
 There isn't space here to list everyone who contributed. Mark Jackson (CERC) was the architect. Chris Johnson (CERC) was the lead developer. Paul Ormandy (Punk My Pixel) was the UX designer. Thanks to the many colleagues from CERC, EDF, University of Cambridge and ACOEM who contributed to the web platform. 
 
 ## Copyright
-All code copyright Cambridge Environmental Research Consultants Ltd. 2022, and all rights reserved. With the exception of code for existing third-party libraries, which have been included in this SVN project for convenience when developing.
+All code copyright Cambridge Environmental Research Consultants Ltd. 2022, and all rights reserved. With the exception of code for existing third-party libraries, which have been included in this repository for convenience when developing.
