@@ -1,5 +1,5 @@
 # Breathe London Web Platform
-The web platform that provided the data, maps and visualisations for the Breathe London website under the Breathe London Pilot project.
+The [web platform](https://globalcleanair.org/innovative-air-quality-monitoring/london-uk/) that provided the data, maps and visualisations for the Breathe London website under the Breathe London Pilot project.
 
 ## Breathe London Pilot Project
 The Breathe London pilot project deployed 100 state-of-the-art fixed air quality sensor pods on lampposts and buildings close to known air quality hotspots and sensitive locations such as schools and nurseries. Two Google Street View cars equipped with air quality monitors took readings approximately every 30 metres at tens of thousands of locations while they travelled through London's streets. The data collected across the capital provided an unprecedented level of detail about London's air quality and delivered new insight into the sources of pollution.
